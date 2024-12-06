@@ -2338,6 +2338,40 @@ p {
   color: var(--white);
 }
 
+.navlinkk {
+  color: var(--light-purpule);
+  text-transform: uppercase;
+  padding: 1.125rem;
+  font-family: Luckiest Guy, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.navlinkk:hover {
+  color: #000;
+}
+
+.navlinkk.foot {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.navlinkk.without-hover:hover {
+  color: var(--white);
+}
+
+.navlinkk.hover-text {
+  min-width: 8.75rem;
+}
+
+.navlinkk.hover-text.w--current {
+  color: var(--white);
+}
+
 .nav-socials-item {
   z-index: 1;
   background-color: var(--light-purpule);
