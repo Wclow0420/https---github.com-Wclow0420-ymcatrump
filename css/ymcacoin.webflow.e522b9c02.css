@@ -2354,24 +2354,6 @@ p {
   color: #000;
 }
 
-.navlinkk.foot {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-size: 1.25rem;
-}
-
-.navlinkk.without-hover:hover {
-  color: var(--white);
-}
-
-.navlinkk.hover-text {
-  min-width: 8.75rem;
-}
-
-.navlinkk.hover-text.w--current {
-  color: var(--white);
-}
-
 .nav-socials-item {
   z-index: 1;
   background-color: var(--light-purpule);
